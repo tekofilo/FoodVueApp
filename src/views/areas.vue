@@ -1,5 +1,5 @@
 <template>
-  <div class="area">
+  <div class="area"> 
     <p>{{ findArea() }}</p>
     <ul class="container" v-for="area in mealAreas" v-bind:key="area.strArea">
       <li>{{ area.strArea }}</li>
